@@ -1,0 +1,332 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Sobat(Software Bucin Authentik)
+</name>
+</assembly>
+<members>
+<member name="T:SteganoNET.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources._480WedKis1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.computer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.delete_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.drive">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.drive_cd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.drive_cd_empty">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.drive_network">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.file">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.file_archive">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.file_excel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.file_image">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.file_music">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.file_powerpoint">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.file_setting">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.file_text">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.file_word">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.folder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SteganoNET.My.Resources.Resources.warning">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:SteganoNET.FileSystemNode">
+ <summary>
+ Class that represents file system tree node.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemNode.#ctor(SteganoNET.FileSystemNodeType)">
+ <summary>
+ Initializes new instance of <see cref="T:SteganoNET.FileSystemNode"/> class.
+ </summary>
+ <param name="nodeType">A <see cref="T:SteganoNET.FileSystemNodeType"/> of the node.</param>
+</member>
+<member name="M:SteganoNET.FileSystemNode.#ctor(SteganoNET.FileSystemNodeType,System.String)">
+ <summary>
+ Initializes new instance of <see cref="T:SteganoNET.FileSystemNode"/> class.
+ </summary>
+ <param name="nodeType">A <see cref="T:SteganoNET.FileSystemNodeType"/> of the node.</param>
+ <param name="text">A text of the node.</param>
+</member>
+<member name="P:SteganoNET.FileSystemNode.NodeType">
+ <summary>
+ Gets the <see cref="T:SteganoNET.FileSystemNodeType"/> of the node.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.EnableDriveStateCheck">
+ <summary>
+ Enables drive state checking timer.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.DisableDriveStateCheck">
+ <summary>
+ Disables drive state checking timer.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.CreateDirectoryTree(SteganoNET.DriveNode)">
+ <summary>
+ Creates directory tree for expanded drive node.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.CreateDirectoryTree(SteganoNET.DirectoryNode)">
+ <summary>
+ Creates directory tree for exanded directory node.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.CreateDirectoryTree(SteganoNET.DirectoryTreeNode,System.Collections.Generic.IEnumerable{System.IO.DirectoryInfo})">
+ <summary>
+ Creates directory tree for the directory node.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.CreateFileTree(SteganoNET.DirectoryNode)">
+ <summary>
+ Creates file tree for expanded directory node.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.CreateFileTree(SteganoNET.DirectoryNode,System.Collections.Generic.IEnumerable{System.IO.FileInfo})">
+ <summary>
+ Creates file tree for the directory node.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.CreateInitialTree">
+ <summary>
+ Creates initial tree that contains my computer node
+ and drive nodes or root drive node.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.ResolveRootNode">
+ <summary>
+ Resolves the root node of the tree. Either computer node or specified drive node.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.CreateInitialDriveTree(SteganoNET.DriveNode)">
+ <summary>
+ Creates initial drive tree by ignoring drives that are not ready.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.GetDirectories(System.IO.DriveInfo)">
+ <summary>
+ Gets directories of the provided drive.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.GetFiles(System.IO.DirectoryInfo)">
+ <summary>
+ Gets files of the provided directory.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.OnNodeExpanding(SteganoNET.FileSystemNode)">
+ <summary>
+ Executed when node is expanding.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.OnNodeClicked(SteganoNET.FileSystemNode)">
+ <summary>
+ Executed when node is clicked.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.OnNodeCollapsed(System.Windows.Forms.TreeNode)">
+ <summary>
+ Executed when node is collapsed.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.OnNodeSelected(SteganoNET.FileSystemNode)">
+ <summary>
+ Executed when node is selected.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.IsReady(System.IO.DriveInfo)">
+ <summary>
+ Checks if drive is ready and if not, prompts user to insert media.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.OnDriveActivated(System.IO.DriveInfo)">
+ <summary>
+ Raises DriveActivated event.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.OnDriveUnactivated(System.IO.DriveInfo)">
+ <summary>
+ Raises DriveUnactivated event.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.OnDriveSelected(System.IO.DriveInfo)">
+ <summary>
+ Raises DriveSelected event.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.OnDirectorySelected(System.IO.DirectoryInfo)">
+ <summary>
+ Raises DirectorySelected event.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.OnFileSelected(System.IO.FileInfo)">
+ <summary>
+ Raises FileSelected event.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.ClearSelectedNodes">
+ <summary>
+ Clears the selected nodes collection.
+ </summary>
+</member>
+<member name="M:SteganoNET.FileSystemTree.HighlightSelectedNodes">
+ <summary>
+ Highlights the selected nodes.
+ </summary>
+</member>
+<member name="F:SteganoNET.FrmMain._selectedFile">
+ <summary>
+ The image file we selected from FileSystemTree
+ </summary>
+</member>
+<member name="F:SteganoNET.FrmMain._selectedFileMaxBytesAttach">
+ <summary>
+ How many bytes can we encode to the selected image file
+ </summary>
+</member>
+<member name="F:SteganoNET.FrmMain._newAttachedFile">
+ <summary>
+ File we want to attach (encode) into the image file we selected from FileSystemTree
+ </summary>
+</member>
+<member name="T:SteganoNET.Helpers.BitmapHelper">
+ <summary>
+ Helper for bitmap manipulation
+ </summary>
+</member>
+<member name="M:SteganoNET.Helpers.BitmapHelper.CreateThumbnail(System.String,System.Windows.Forms.PictureBox,System.Drawing.Color)">
+ <summary>
+ Display a image in a picturebox with correct aspect ratio according picturebox size
+ </summary>
+ <param name="inputfile">image file we want to display</param>
+ <param name="pictureBoxRender">picturebox control that shows image file</param>
+ <param name="clearColor">background color for picturebox</param>
+</member>
+<member name="T:SteganoNET.Helpers.Stegano">
+ <summary>
+ Helper for steganography stuff
+ </summary>
+</member>
+<member name="F:SteganoNET.Helpers.Stegano.HEADER_SECRET_TEXT">
+ <summary>
+ Header for hiding a text
+ </summary>
+</member>
+<member name="F:SteganoNET.Helpers.Stegano.HEADER_SECRET_FILE">
+ <summary>
+ Header for attach a file of any type
+ </summary>
+</member>
+<member name="F:SteganoNET.Helpers.Stegano.HEADER_SPLIT_DATA">
+ <summary>
+ Split chacacter for header
+ </summary>
+</member>
+<member name="M:SteganoNET.Helpers.Stegano.GetMaxSteganoSize(System.Drawing.Bitmap)">
+ <summary>
+ Returns how many Bytes we can 'hide' as steganography in the image
+ </summary>
+ <param name="sourceBitmap">image we use for steganography</param>
+ <returns></returns>
+</member>
+<member name="M:SteganoNET.Helpers.Stegano.GetStegano(System.String,SteganoNET.Helpers.SteganoInfo@,System.Byte[]@)">
+ <summary>
+ Function for decode steganography from image
+ </summary>
+ <param name="sourceFile">image source file. The image should be png, jpg and bmp format. Can be any bpp</param>
+ <param name="steganoInfo">Information decoded from the sourceFile</param>
+ <param name="bytesAttach">Byte for file to hide in the sourceFile. This file can be any file type</param>
+ <returns></returns>
+</member>
+<member name="M:SteganoNET.Helpers.Stegano.CreateStegano(System.Drawing.Bitmap,System.String,SteganoNET.Helpers.SteganoInfo)">
+ <summary>
+ Method for encode steganography into image (sourceBitmap)
+ </summary>
+ <param name="sourceBitmap">Source bitmap where we are going to encode the data</param>
+ <param name="saveToFilename">Name for the new image containing the steganography data. By default the new image will be a png file</param>
+ <param name="steganoInfo">Information we want to encode to the sourceBitmap</param>      
+</member>
+</members>
+</doc>

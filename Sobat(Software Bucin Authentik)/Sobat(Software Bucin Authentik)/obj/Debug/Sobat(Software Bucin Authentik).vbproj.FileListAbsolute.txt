@@ -1,0 +1,14 @@
+C:\Users\Diar\Documents\Sobat(Software Bucin Authentik)\SteganoNET-master\Sobat(Software Bucin Authentik)\bin\Debug\Sobat(Software Bucin Authentik).exe.config
+C:\Users\Diar\Documents\Sobat(Software Bucin Authentik)\SteganoNET-master\Sobat(Software Bucin Authentik)\bin\Debug\Sobat(Software Bucin Authentik).exe
+C:\Users\Diar\Documents\Sobat(Software Bucin Authentik)\SteganoNET-master\Sobat(Software Bucin Authentik)\bin\Debug\Sobat(Software Bucin Authentik).pdb
+C:\Users\Diar\Documents\Sobat(Software Bucin Authentik)\SteganoNET-master\Sobat(Software Bucin Authentik)\bin\Debug\Sobat(Software Bucin Authentik).xml
+C:\Users\Diar\Documents\Sobat(Software Bucin Authentik)\SteganoNET-master\Sobat(Software Bucin Authentik)\obj\Debug\SteganoNET.FileSystemTree.resources
+C:\Users\Diar\Documents\Sobat(Software Bucin Authentik)\SteganoNET-master\Sobat(Software Bucin Authentik)\obj\Debug\SteganoNET.FrmMain.resources
+C:\Users\Diar\Documents\Sobat(Software Bucin Authentik)\SteganoNET-master\Sobat(Software Bucin Authentik)\obj\Debug\SteganoNET.HalamanLoading.resources
+C:\Users\Diar\Documents\Sobat(Software Bucin Authentik)\SteganoNET-master\Sobat(Software Bucin Authentik)\obj\Debug\SteganoNET.loadingcompletenotif.resources
+C:\Users\Diar\Documents\Sobat(Software Bucin Authentik)\SteganoNET-master\Sobat(Software Bucin Authentik)\obj\Debug\SteganoNET.Resources.resources
+C:\Users\Diar\Documents\Sobat(Software Bucin Authentik)\SteganoNET-master\Sobat(Software Bucin Authentik)\obj\Debug\Sobat(Software Bucin Authentik).vbproj.GenerateResource.cache
+C:\Users\Diar\Documents\Sobat(Software Bucin Authentik)\SteganoNET-master\Sobat(Software Bucin Authentik)\obj\Debug\Sobat(Software Bucin Authentik).vbproj.CoreCompileInputs.cache
+C:\Users\Diar\Documents\Sobat(Software Bucin Authentik)\SteganoNET-master\Sobat(Software Bucin Authentik)\obj\Debug\Sobat(Software Bucin Authentik).exe
+C:\Users\Diar\Documents\Sobat(Software Bucin Authentik)\SteganoNET-master\Sobat(Software Bucin Authentik)\obj\Debug\Sobat(Software Bucin Authentik).xml
+C:\Users\Diar\Documents\Sobat(Software Bucin Authentik)\SteganoNET-master\Sobat(Software Bucin Authentik)\obj\Debug\Sobat(Software Bucin Authentik).pdb
