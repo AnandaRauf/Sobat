@@ -18,3 +18,5 @@ Aplikasi bernama : Super Simple Marketing Whatsapp 1 Version 1.0
 Super Simple Marketing Whatsapp adalah software untuk mengirim pesan cinta rahasia, dan file cinta rahasia ke dalam gambar.
 Super Simple Marketing Whatsapp kalian bisa pakai untuk keperluan yang kalian perlu seperti membuka / memakai, dan modifikasi, tidak diizinkan dijual kembali dan serta tidak boleh untuk mengaku ini aplikasi kalian secara resmi.
 Super Simple Marketing Whatsapp dilindungi oleh UUD 1945 / UU Indonesia tentang hak cipta.
+
+Video demo : https://www.youtube.com/watch?v=bilr7mjPrkI
